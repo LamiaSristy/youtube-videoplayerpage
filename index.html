@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/playbutton.png" type="favicon/png">
+    <script src="https://kit.fontawesome.com/867f1dd431.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="container">
+
+    <nav>
+        <ul>
+            <li>
+                <a href="">
+                    <img class="home-logo" src="images/youtube.png" alt="home-logo">
+                </a>
+            </li>
+            <li>
+                <input placeholder="Search" class="search-bar" type="search">
+                <button class="search-button" type="submit"><i class="fas fa-search"></i></button>
+            </li>
+            <li class="top-icons">
+                <a href="">
+                    <img class="two-icons" alt="user" src="images/user-icon.png" />
+                </a>
+            </li>
+            <li class="top-icons" >
+                <a href="">
+                    <img class="two-icons" alt="notification-bell" src="images/bell.png" />
+                </a>
+            </li>
+            <li class="top-icons">
+                <a href="">
+                    <img alt="square-icon" src="images/squares.png" />
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="flex-container">
+        <iframe class="video" width="1001" height="562" src="https://www.youtube.com/embed/hu-q2zYwEYs"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-details">
+            <label class="video-title"> HTML & CSS Crash Course Tutorial #1 - Introduction </label>
+            <h4 class="views"> 256,469 views - 10 Aug 2018 </h4>
+            <ul>
+
+                <li>
+                    <a href="">
+                        <i class="fas fa-ellipsis-h fa-icon-styling"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class="fas fa-plus-square fa-icon-styling"> SAVE</i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class="fas fa-share fa-icon-styling"> SHARE</i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class="fas fa-thumbs-down fa-icon-styling"> 25</i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class="fas fa-thumbs-up fa-icon-styling"> 5K</i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="video-description">
+            <div class="user-details">
+                <img class="user-picture" src="images/user-logo.jpeg" alt="user_picture">
+                <div class="user-text">
+                    <h4>
+                        The Net Ninja
+                        <i class="fas fa-check-circle"></i>
+                    </h4>
+                    <h5>608K subscribers</h5>
+                </div>
+            </div>
+            <div class="description-buttons">
+                <button id="join-button" class="video-button"> JOIN </button>
+                <button id="sub-button" class="video-button"> SUBSCRIBE </button>
+            </div>
+            <div class="video-text">
+                Hey gang & welcome to your very first HTML & CSS tutorial. Throughout this crash course series I'll take
+                you from total beginner to create great-looking sites with HTML & CSS. In this video, we'll cover what
+                HTML & CSS are, as well as setting up our dev environment. <br>
+
+                ---------------------------------------- <br>
+
+                🐱‍💻 🐱‍💻 Course Links: <br>
+
+                + Course files - https://github.com/iamshaunjp/html-an... <br>
+
+                + Complete React Course - https://www.youtube.com/playlist?list.. <br>
+
+                + React Context Docs - https://reactjs.org/docs/context.html <br>
+                <br>
+                <span id="show-more"> SHOW MORE.. </span>
+            </div>
+        </div>
+        <div class="comments">
+            <h3> 255 Comments </h3>
+        </div>
+
+    </main>
+    <aside class="flex-container-aside">
+        <div class="autoplay-section">
+            <ul>
+                <li class="up-next">
+                    Up next
+                </li>
+                <li id="autoplay-text">
+                    AUTOPLAY
+                    <i class="fas fa-toggle-on"></i>
+                </li>
+            </ul>
+        </div>
+
+        <div class="video-previews">
+            <div class="next-video">
+                <img class="video-preview " src="images/video-screenshots/screenshot-1.png" alt="video-image">
+                <ul class="aside-video-text">
+
+                    <li class="text-1"><b> Deno WebSockets Tutorial<br> #1 - Introduction </b></li>
+                    <li class="views-style text-2">The Net Ninja <i class="fas fa-check-circle "></i></li>
+                    <li class="views-style text-3">4.9K views-1 week ago</li>
+
+                </ul>
+            </div>
+
+            <div class="aside-box" id="second-video">
+                <img class="video-preview" src="images/video-screenshots/screenshot-2.png" alt="video-image">
+                <ul class="aside-video-text">
+
+                    <li class="text-1"><b>CSS Crash Course For <br>Absolute Beginners </b></li>
+                    <li class="views-style text-2">Traversy Media<i class="fas fa-check-circle"></i></li>
+                    <li class="views-style text-3">2.1M views-2 years ago</li>
+
+                </ul>
+            </div>
+
+            <div class="aside-box">
+                <img class="video-preview" src="images/video-screenshots/screenshot-3.png" alt="video-image">
+                <ul class="aside-video-text">
+
+                    <li class="text-1"><b> CSS Grid Tutorial <br>#1 - Why Use CSS Grid?</b></li>
+                    <li class="views-style text-2">The Net Ninja <i class="fas fa-check-circle"></i></li>
+                    <li class="views-style text-3">142K views - 2 years ago </li>
+                </ul>
+            </div>
+
+            <div class="aside-box">
+                <img class="video-preview" src="images/video-screenshots/screenshot-6.png" alt="video-image">
+                <ul class="aside-video-text">
+
+                    <li><b> Tkinter Course - <br>Create Graphic User <br>Interfaces in <br>Python Tutorial</b></li>
+                    <li class="views-style ">freeCodeCamp.org<i class="fas fa-check-circle"></i></li>
+                    <li class="views-style text-3">608K views- 7 months ago</li>
+                </ul>
+            </div>
+
+            <div class="aside-box">
+                <img class="video-preview" src="images/video-screenshots/screenshot-4.png" alt="video-image">
+                <ul class="aside-video-text">
+
+                    <li class="text-1"><b>Tailwind CSS Tutorial #2 <br> - HTML Template </b></li>
+                    <li class="views-style text-2">The Net Ninja <i class="fas fa-check-circle"></i></li>
+                    <li class="views-style text-3">3.3K views- 2 days ago</li>
+                </ul>
+            </div>
+
+            <div class="aside-box">
+                <img class="video-preview" src="images/video-screenshots/screenshot-5.png" alt="video-image">
+                <ul class="aside-video-text">
+
+                    <li class="text-1"><b> HOT ONES S3 • E17</b></li>
+                    <li class="views-style text-2">Neil deGrasse Tyson <br> Explains the Universe <i
+                            class="fas fa-check-circle"></i></li>
+                    <li class="views-style text-3">100K views - 3 months ago </li>
+
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+</body>
+
+</html>
